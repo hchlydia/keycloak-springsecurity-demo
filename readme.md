@@ -1,6 +1,6 @@
-# Microservices with Spring Security
+# Keycloak-SpringSecurity-Demo
 
-- 應用OAuth 2.0到微服務架構中
+- 應用OAuth 2.0到架構中
 - 使用Keycloak架設Authorization Server
 - 使用Spring Security架設Resource Server
 
@@ -25,3 +25,6 @@
 - Keycloak's public key: Realm settings > Endpoints > OpenID Endpoint Configuration > jwk-uri
 - 配置Spring Security的Configuration
 - request都要帶上Authorization Header，value即為access_token(Bearer)
+
+## 參考:
+[資安一把罩！Spring Security 零基礎入門](https://hahow.in/courses/64d4acbf018e4b0acfaac3a3) by 古君葳

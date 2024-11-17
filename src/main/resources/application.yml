@@ -1,6 +1,6 @@
 spring:
   application:
-    name: microservices-with-spring-security
+    name: keycloak-springsecurity-demo
 
   security:
     oauth2:
