@@ -15,6 +15,9 @@ public class MySecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         return http
                 .authorizeHttpRequests(request -> request
+
+                        .requestMatchers("/order").hasAuthority("SCOPE_profile")
+
                         .anyRequest().authenticated()
                 )
 
