@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: microservices-with-spring-security
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:5500/realms/master/protocol/openid-connect/certs #??Keycloak?????
